@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Desafio_Trimania_Re00.Services;
+using Desafio_Trimania_Re00.Interfaces;
+using Desafio_Trimania_Re00.Data;
 
 namespace Desafio_Trimania_Re00
 {
@@ -32,11 +35,15 @@ namespace Desafio_Trimania_Re00
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Desafio_Trimania_Re00", Version = "v1" });
             });
+
+            services.AddScoped<ApplicationContext>();
+            services.AddScoped<IUserServices, UserServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

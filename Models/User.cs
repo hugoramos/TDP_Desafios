@@ -13,6 +13,11 @@ namespace Desafio_Trimania_Re00.Models
         public DateTime CreationDate { get; set; }
         public Adress Adress { get; set; }
 
+
+        public User()
+        {
+
+        }
         public User(int userId, string name, string login, string password, string cpf, string email,
          DateTime birthday, Adress adress)
         {

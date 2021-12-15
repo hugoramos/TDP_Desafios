@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Desafio_Trimania_Re00.Data;
 using Desafio_Trimania_Re00.Models;
 using Desafio_Trimania_Re00.Services;
+using Desafio_Trimania_Re00.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -12,9 +13,9 @@ namespace Desafio_Trimania_Re00.Controllers
 {
     public class UserController : ControllerBase
     {
-        public readonly UserServices _userServices;
+        public readonly IUserServices _userServices;
 
-        public UserController(UserServices services)
+        public UserController(IUserServices services)
         {
             _userServices = services;
         }

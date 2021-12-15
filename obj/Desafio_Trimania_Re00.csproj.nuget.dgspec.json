@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\TDP\\Estudos C#\\TDP_Aula6\\Desafio_Trimania_Re00\\Desafio_Trimania_Re00.csproj": {}
+    "/Users/hugoramossoares/Sites/TDP_Desafios/Desafio_Trimania_Re00.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\TDP\\Estudos C#\\TDP_Aula6\\Desafio_Trimania_Re00\\Desafio_Trimania_Re00.csproj": {
+    "/Users/hugoramossoares/Sites/TDP_Desafios/Desafio_Trimania_Re00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\TDP\\Estudos C#\\TDP_Aula6\\Desafio_Trimania_Re00\\Desafio_Trimania_Re00.csproj",
+        "projectUniqueName": "/Users/hugoramossoares/Sites/TDP_Desafios/Desafio_Trimania_Re00.csproj",
         "projectName": "Desafio_Trimania_Re00",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\TDP\\Estudos C#\\TDP_Aula6\\Desafio_Trimania_Re00\\Desafio_Trimania_Re00.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\TDP\\Estudos C#\\TDP_Aula6\\Desafio_Trimania_Re00\\obj\\",
+        "projectPath": "/Users/hugoramossoares/Sites/TDP_Desafios/Desafio_Trimania_Re00.csproj",
+        "packagesPath": "/Users/hugoramossoares/.nuget/packages/",
+        "outputPath": "/Users/hugoramossoares/Sites/TDP_Desafios/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/hugoramossoares/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -69,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
